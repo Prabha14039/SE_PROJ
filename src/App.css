@@ -1,0 +1,22 @@
+
+
+/* App Wrapper */
+.dashboard {
+  display: flex;
+  gap: 20px;
+}
+
+
+/* Dashboard Content Area */
+.dashboard--content {
+  flex: 1; /* Allows content to take up remaining space */
+  padding: 2rem;
+  display: flex;
+  border-radius: 20px;
+  gap: 1.5em;
+  overflow-y: auto; /* Scrollable content if it overflows vertically */
+  box-sizing: border-box;
+  background-color: #fff; /* Light gray for content background */
+  justify-content: space-between; /* Enable scroll for content overflow */
+}
+
